@@ -1,0 +1,6 @@
+2020-11-17T06:32:58+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to WC_WooMercadoPago_Helpers_CurrencyConverter::getAccessToken() must be an instance of WC_WooMercadoPago_PaymentAbstract, null given, called in /home/u400065928/domains/gru-caps.com/public_html/cursos/wp-content/plugins/woocommerce-mercadopago/includes/helpers/WC_WooMercadoPago_Helpers_CurrencyConverter.php on line 210 and defined in /home/u400065928/domains/gru-caps.com/public_html/cursos/wp-content/plugins/woocommerce-mercadopago/includes/helpers/WC_WooMercadoPago_Helpers_CurrencyConverter.php:145
+Stack trace:
+#0 /home/u400065928/domains/gru-caps.com/public_html/cursos/wp-content/plugins/woocommerce-mercadopago/includes/helpers/WC_WooMercadoPago_Helpers_CurrencyConverter.php(210): WC_WooMercadoPago_Helpers_CurrencyConverter->getAccessToken(NULL)
+#1 /home/u400065928/domains/gru-caps.com/public_html/cursos/wp-content/plugins/woocommerce-mercadopago/includes/module/WC_WooMercadoPago_Module.php(424): WC_WooMercadoPago_Helpers_CurrencyConverter->loadRatio('USD', 'MXN')
+#2 / en /home/u400065928/domains/gru-caps.com/public_html/cursos/wp-content/plugins/woocommerce-mercadopago/includes/helpers/WC_WooMercadoPago_Helpers_CurrencyConverter.php en la línea 145
+
